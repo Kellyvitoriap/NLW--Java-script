@@ -9,7 +9,7 @@ O codigo vai ser sempre interpretado linha a linha
 ## Peças de uma  linguagem
 
 
--Comentários
+-Comentários //para comentarios curtos ou /* para comentarios longos, de mais de uma linha*/
 - Declaração de variaveis (const, let) 
 - Operadores (atributos, concatenação, matematicos e logicos)
 -Tpos de dados (function, object, array)
