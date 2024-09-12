@@ -44,3 +44,18 @@ O codigo vai ser sempre interpretado linha a linha
 arrays (Lista de dados): []
 objetos(lista de propiedades e valores ): {}
 function (funçoes,): function nomeDaFunction() {}
+
+**Estrutura de Repetição**
+- while :
+
+const start = () => {
+    let count = 1 // contador:inicia com 1
+    while (count <= 10) { // estrutura de repetição: vamos comparar p conunt com o 10,  se o count for menor q 10 =
+        console.log(count)// vai apresentar count
+        count = count + 1  // q serar o primeiro count mais 1
+    }
+}
+start () 
+
+**Condicionais**
+-switch

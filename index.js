@@ -14,10 +14,19 @@ const start() => {
 */
 
 const start = () => {
-    let count = 1 // contador:inicia com 1
-    while (count <= 10) { // estrutura de repetição: vamos comparar p conunt com o 10,  se o count for menor q 10 =
-        console.log(count)// vai apresentar count
-        count = count + 1  // q serar o primeiro count mais 1
+
+    while (true) { 
+        let opcao = "sair"
+        switch(opcao){
+            case "cadrastrar":
+                console.log("vamos cadrastar")
+                break//serve para acabar um case
+            case "listar":
+                console.log("vamos listar")
+                break
+            case "sair":
+                return
+        }
     }
 }
 start () 
